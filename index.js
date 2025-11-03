@@ -30,7 +30,10 @@ export function hasIsland() {
     return (
         isIphone() &&
         ((dimen.height === 852 || dimen.width === 852) // 14 Pro
-            || (dimen.height === 932 || dimen.width === 932)) // 14 Pro Max
+            || (dimen.height === 932 || dimen.width === 932) // 14 Pro Max
+            || (dimen.height === 874 || dimen.width === 874) // 17 + 17 Pro
+            || (dimen.height === 956 || dimen.width === 956) // 17 Pro Max
+        ) 
     );
 }
 
